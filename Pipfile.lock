@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1b52d142dbcbab12ee60414af0a5816663fc1aab492bb5be90a67f0f1ce97a21"
+            "sha256": "f95bbdd4ec978aa83d99b0ac3f1b8c9a37d102d2006e9691332149b2803fa950"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -74,6 +74,14 @@
             ],
             "version": "==1.0.4"
         },
+        "django-countries": {
+            "hashes": [
+                "sha256:2e852c9693818d64d28758a720a0cb8277673ac495af8b855c4dc64940703bd2",
+                "sha256:e2ae9b76f9a0b5f3f365b5b81fe4972df0a5878c930139586f43f7d6d50a9594"
+            ],
+            "index": "pypi",
+            "version": "==6.1.2"
+        },
         "django-debug-toolbar": {
             "hashes": [
                 "sha256:eabbefe89881bbe4ca7c980ff102e3c35c8e8ad6eb725041f538988f2f39a943",
@@ -98,6 +106,14 @@
             "index": "pypi",
             "version": "==3.0.3"
         },
+        "django-feather": {
+            "hashes": [
+                "sha256:8db844056b1732b992ccfb6b7080ada8bf024a0e5d7dad66e36bb2616eb63002",
+                "sha256:cbfccda50a664e77ac5ef823e00b11c40e09e4f8cae3758af370479c925c0081"
+            ],
+            "index": "pypi",
+            "version": "==0.2.6"
+        },
         "django-filter": {
             "hashes": [
                 "sha256:558c727bce3ffa89c4a7a0b13bc8976745d63e5fd576b3a9a851650ef11c401b",
@@ -113,6 +129,14 @@
             ],
             "index": "pypi",
             "version": "==4.0.2"
+        },
+        "django-phone-field": {
+            "hashes": [
+                "sha256:407e74b65e8f7dd14d0a0aa89e277516d57ad6a09ce992cdd94e15b1624b9961",
+                "sha256:db63af60fc3a3c66b9faa7e72bb7972cd1518299f2e93d68dd95d8df6214f7ed"
+            ],
+            "index": "pypi",
+            "version": "==1.8.1"
         },
         "django-rest-auth": {
             "hashes": [
@@ -381,11 +405,11 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527",
-                "sha256:88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115"
+                "sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a",
+                "sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
-            "version": "==1.25.9"
+            "version": "==1.25.10"
         },
         "zipp": {
             "hashes": [

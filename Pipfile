@@ -19,6 +19,9 @@ django-extensions = "*"
 django-imagekit = "*"
 django-debug-toolbar = "*"
 django-environ = "*"
+django-phone-field = "*"
+django-countries = "*"
+django-feather = "*"
 
 [requires]
 python_version = "3.7"

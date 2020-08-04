@@ -41,4 +41,18 @@ class ProductTags(models.Model):
     tag = models.ForeignKey(Tags, on_delete=models.CASCADE)
 
 
+class City(models.Model):
+    name = models.CharField(unique=True, max_length=50, help_text='City Name')
+
+
+class State(models.Model):
+    name = models.CharField(unique=True, max_length=50, help_text='State Name')
+
+
+# class Country(models.Model):
+#     name = models.CharField(unique=True, max_length=50, help_text='Country Name')
+
+
+
+
 
