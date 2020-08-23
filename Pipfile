@@ -22,6 +22,9 @@ django-environ = "*"
 django-phone-field = "*"
 django-countries = "*"
 django-feather = "*"
+django-cors-headers = "*"
+django-cleanup = "*"
+djangorestframework-simplejwt = "*"
 
 [requires]
 python_version = "3.7"

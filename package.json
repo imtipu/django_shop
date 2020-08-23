@@ -5,6 +5,8 @@
   "main": "webpack.mix.js",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "browser-sync-webpack-plugin": "^2.0.1",
     "cross-env": "^7.0.2",
     "laravel-mix": "^5.0.4",
     "node-sass": "^4.14.1",

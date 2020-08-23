@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {% for product in products %}
+        <li>
+            <p>{{ product.title }}</p>
+            <div>Variants</div>
+            <ul>
+                {% for variant in product.product_variants.all %}
+                    <li>{{ variant.option }} - {{ variant.value }}</li>
+                {% endfor %}
+            </ul>
+         <div>----</div>
+            <div>Images</div>
+            <ul>
+                {% for image in product.productimage_set.all %}
+                    <li>{{ image }}</li>
+                {% endfor %}
+            </ul>
+            <div>----</div>
+            <div>Tags</div>
+            <ul>
+                {% for tag in product.producttags_set.all %}
+                    <li>{{ tag }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        <hr>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
