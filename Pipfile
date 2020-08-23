@@ -25,6 +25,7 @@ django-feather = "*"
 django-cors-headers = "*"
 django-cleanup = "*"
 djangorestframework-simplejwt = "*"
-
+whitenoise = "~=3.3.0"
+psycopg2-binary = "*"
 [requires]
 python_version = "3.7"
