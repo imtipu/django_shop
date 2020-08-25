@@ -12,6 +12,7 @@ router = DefaultRouter()
 router.register(u'account/register', viewsets.SignupViewSet, basename='api_account_register')
 urlpatterns = [
     path('', include(router.urls)),
+    path('app/customer/login-verify/', CustomerLoginVerify.as_view(), name='shopify_customer_login_verify'),
     path('account/auth-user/', AuthenticatedUserProfile.as_view(), name='auth_user_profile'),
     path('account/login/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('account/login/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
